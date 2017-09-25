@@ -13,6 +13,7 @@ namespace DnD.Data
         public static void FirstRoom(Hero hero, DnDContext context)
         {
             //and here
+            //and some more
             Screans.Introduction.Show(hero);
             Screans.MainMenu.Show(hero);
             var room = context.Rooms.Where(r => r.Id == 1).FirstOrDefault();
